@@ -30,6 +30,8 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
+  -webkit-box-shadow: 0 4px 10px #667abb;
+          box-shadow: 0 4px 10px #667abb;
 }
 
 .nav .span-wrapper {
@@ -277,7 +279,6 @@ a {
   }
   .intro a {
     margin: 0 auto;
-    display: block;
     text-align: center;
     width: 52px;
     height: 16px;
@@ -295,6 +296,14 @@ a {
 }
 
 @media screen and (max-width: 576px) {
+  .nav .span-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .nav .span-wrapper a {
+    padding: 5px;
+  }
   .header {
     width: 100%;
   }
