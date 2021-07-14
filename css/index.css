@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -111,7 +112,7 @@ a {
 .intro {
   width: 1110px;
   margin: 0 auto;
-  padding: 184px 0 160px;
+  padding: 154px 0 160px;
 }
 
 .intro .img-wrapper {
@@ -130,12 +131,12 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 15px;
+  margin-top: 35px;
 }
 
 .intro h2 {
   font-size: 2rem;
   line-height: 2.625rem;
-  margin-bottom: 24px;
   color: #1e266d;
 }
 
