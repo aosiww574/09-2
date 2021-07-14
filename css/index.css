@@ -201,13 +201,21 @@ a {
   color: #ffffff;
 }
 
+.footer h3 {
+  line-height: 1.2;
+}
+
+.footer h3:last-of-type {
+  margin-bottom: 30px;
+}
+
 .slider {
   padding: 160px 15px 200px;
   text-align: center;
 }
 
 .slider .slick-list {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .slider h2 {
