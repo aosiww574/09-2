@@ -10,15 +10,26 @@
     <link rel="stylesheet" href="./css/slick-theme.css">
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/slick.min.js"></script>
-    <title>Document</title>
+    <title>薩摩亞商爵鼎資本管理股份有限公司</title>
 </head>
 
 <body>
+    <div class="menu">
+        <div class="menu-item"><a href="#one" class="a1">公司介紹</a></div>
+        <div class="menu-item"><a href="#two" class="a2">服務項目</a></div>
+        <div class="menu-item"><a href="#three" class="a3">為何選擇我們</a></div>
+    </div>
     <div class="nav">
         <div class="span-wrapper">
-            <span><a href="#one">公司介紹</a></span>
+            <img src="./img/dc.png" alt="logo">
+            <p class="inline">薩摩亞商爵鼎資本管理股份有限公司</p>
+            <!-- <span><a href="#one">公司介紹</a></span>
             <span><a href="#two">服務項目</a></span>
-            <span><a href="#three">為何選擇我們</a></span>
+            <span><a href="#three">為何選擇我們</a></span> -->
+            <div class="hamburger">
+
+                <div class="hamburger-line"></div>
+            </div>
         </div>
     </div>
 
@@ -212,12 +223,28 @@
             //当滚动条的长度大于指定的位置到顶部的距离时
             if (scrollTop > setTop) {
                 top.style.display = "block"; //显示底部按钮
-                console.log("1111");
             } else {
-                console.log("222");
                 top.style.display = "none"; //隐藏底部按钮
             }
         }
+
+        const hb = document.querySelector(".hamburger")
+        const menu = document.querySelector(".menu")
+        const a1 = document.querySelector(".a1")
+        const a2 = document.querySelector(".a2")
+        const a3 = document.querySelector(".a3")
+        hb.addEventListener("click", function () {
+            menu.classList.toggle("x")
+        })
+        a1.addEventListener("click", function () {
+            menu.classList.toggle("x")
+        })
+        a2.addEventListener("click", function () {
+            menu.classList.toggle("x")
+        })
+        a3.addEventListener("click", function () {
+            menu.classList.toggle("x")
+        })
     </script>
 </body>
 
