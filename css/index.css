@@ -241,7 +241,8 @@ a {
 .footer {
   padding: 152px 15px 136px;
   text-align: center;
-  background-image: url(../img/header-background.png);
+  background-image: url(../img/world.svg);
+  background-color: #267ec2;
   background-position: center center;
   background-size: cover;
 }
@@ -545,5 +546,9 @@ a {
 
 .x {
   top: 57px;
+}
+
+#two {
+  background-color: #ebebeb;
 }
 /*# sourceMappingURL=index.css.map */
