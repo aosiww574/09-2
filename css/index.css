@@ -68,8 +68,9 @@ a {
 }
 
 .nav .span-wrapper {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .nav .span-wrapper img {
@@ -110,6 +111,7 @@ a {
   position: relative;
   -webkit-box-shadow: 0 0 3px #000;
           box-shadow: 0 0 3px #000;
+  display: none;
 }
 
 .nav .hamburger .hamburger-line {
@@ -337,11 +339,6 @@ a {
 }
 
 @media screen and (max-width: 992px) {
-  .nav .span-wrapper {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .header {
     text-align: center;
   }
@@ -374,6 +371,12 @@ a {
 }
 
 @media screen and (max-width: 850px) {
+  .nav .span-wrapper span {
+    display: none;
+  }
+  .nav .hamburger {
+    display: block;
+  }
   .intro .img-wrapper {
     width: 80%;
   }
